@@ -4,7 +4,7 @@
   --accent-color: #212121;
 }
 * {
-  outline: 1px black;
+  outline: 1px solid black;
 }
 body {
   font-family: var(--main-font);
@@ -63,6 +63,11 @@ img {
   clip-path: insert(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 /*=============End Components ==========*/
 
@@ -164,7 +169,7 @@ img {
   margin-bottom: 30px;
   width: 696px;
 }
-.hero .container {
+.hero {
   padding-top: 200px;
   padding-bottom: 280px;
 }
@@ -200,6 +205,15 @@ img {
   letter-spacing: 0.03em;
   color: var(--accent-color);
 }
+
+.benefits-list {
+  display: flex;
+}
+
+.benefits-list-item:not(:last-child) {
+  margin-right: 70px;
+}
+
 .benefits-list-title {
   font-weight: bold;
   font-size: 14px;
@@ -215,6 +229,33 @@ img {
   letter-spacing: 0.03em;
   color: #757575;
 }
+.benefits-list-title {
+  margin-bottom: 20px;
+}
+
+.our-work .subtitle {
+  margin-bottom: 56px;
+}
+
+.our-work-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.workers .subtitle {
+  margin-bottom: 56px;
+}
+
+.workers-list {
+  display: flex;
+  justify-content: space-between;
+}
+.workers-content {
+  padding-top: 32px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
 .workers-name {
   font-weight: 500;
   font-size: 16px;
@@ -222,6 +263,7 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--accent-color);
+  margin-bottom: 10px;
 }
 .workers-position {
   font-weight: normal;
@@ -234,6 +276,11 @@ img {
 /*============= End Main ===========*/
 
 /*=============Footer==========*/
+.footer > .container {
+  padding: 60px 0;
+  justify-content: space-between;
+}
+
 .footer {
   background-color: #2f303a;
 }
@@ -244,6 +291,7 @@ img {
   line-height: 1.192;
   letter-spacing: 0.03em;
   color: #ffffff;
+  margin-bottom: 20px;
 }
 .footer-address {
   font-weight: normal;
