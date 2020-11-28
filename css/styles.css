@@ -3,9 +3,9 @@
   --secondary-font: "Raleway", sans-serif;
   --accent-color: #212121;
 }
-* {
+/** {
   outline: 1px solid black;
-}
+}*/
 body {
   font-family: var(--main-font);
   color: var(--accent-color);
@@ -361,6 +361,7 @@ img {
   margin-right: 30px;
   margin-bottom: 30px;
 }
+
 .work-examples-item:nth-child(3n) {
   margin-right: 0;
 }
@@ -387,7 +388,6 @@ img {
   padding-top: 28px;
   padding-bottom: 28px;
   padding-left: 24px;
-  padding-right: 24px;
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
   background: #ffffff;
