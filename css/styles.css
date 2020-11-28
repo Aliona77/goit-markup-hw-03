@@ -252,6 +252,7 @@ img {
 }
 .workers-content {
   padding-top: 32px;
+  padding-bottom: 32px;
   padding-left: 60px;
   padding-right: 60px;
 }
@@ -276,14 +277,14 @@ img {
 /*============= End Main ===========*/
 
 /*=============Footer==========*/
-.footer > .container {
+.footer .container {
   padding: 60px 0;
-  justify-content: space-between;
 }
 
 .footer {
   background-color: #2f303a;
 }
+
 .logo-footer {
   font-family: var(--secondary-font);
   font-weight: bold;
@@ -291,7 +292,8 @@ img {
   line-height: 1.192;
   letter-spacing: 0.03em;
   color: #ffffff;
-  margin-bottom: 20px;
+  display: block;
+  margin-bottom: 30px;
 }
 .footer-address {
   font-weight: normal;
@@ -300,6 +302,11 @@ img {
   line-height: 1.714;
   letter-spacing: 0.03em;
   color: #ffffff;
+  display: block;
+  margin-bottom: 18px;
+}
+.footer-contact-mail {
+  margin-bottom: 18px;
 }
 .footer-contact-mail,
 .footer-contact-tel {
@@ -309,6 +316,7 @@ img {
   line-height: 1.714;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+  display: block;
 }
 /*============= End Footer==========*/
 
