@@ -1,0 +1,272 @@
+:root {
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --accent-color: #212121;
+}
+body {
+  font-family: var(--main-font);
+  color: var(--accent-color);
+}
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+}
+img {
+  display: block;
+}
+
+.address {
+  font-style: normal;
+}
+
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+/*============= Components ==========*/
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: insert(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+/*=============End Components ==========*/
+
+/*============= Header ==========*/
+.header {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+}
+
+.header .logo {
+  margin-right: 92px;
+}
+
+.header .address {
+  margin-left: auto;
+}
+
+.header-mail {
+  margin-right: 50px;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
+.navigation-menu {
+  display: flex;
+}
+
+.navigation-menu-item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.logo {
+  font-family: var(--secondary-font);
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+
+.logo-accent {
+  color: #2196f3;
+}
+
+.navigation-menu-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+  color: var(--accent-color);
+}
+
+.navigation-menu-link:hover,
+.navigation-menu-link:focus,
+.header-tel:hover,
+.header-mail:focus,
+.header-mail:hover {
+  color: #2196f3;
+}
+
+.header-tel,
+.header-mail {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
+/*============= End Header ==========*/
+
+/*============= Hero ===========*/
+
+.hero {
+  background-color: #2f303a;
+}
+
+.title-hero {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.363;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.modal-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
+/*============= End Hero ===========*/
+
+/*============= Main ===========*/
+.subtitle {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.166;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+}
+.benefits-list-title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+  text-transform: uppercase;
+}
+.benefits-list-text {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.workers-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.187;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+}
+.workers-position {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.187;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/*============= End Main ===========*/
+
+/*=============Footer==========*/
+.footer {
+  background-color: #2f303a;
+}
+.logo-footer {
+  font-family: var(--secondary-font);
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.footer-address {
+  font-weight: normal;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.footer-contact-mail,
+.footer-contact-tel {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+/*============= End Footer==========*/
+
+/*=============Portfolio==========*/
+
+.modal-button-portfolio:hover,
+.modal-button-portfolio:focus {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+
+.modal-button-portfolio {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.162;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.work-examples-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.work-examples-text {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/*=============End Portfolio==========*/
