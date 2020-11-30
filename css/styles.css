@@ -117,7 +117,9 @@ img {
 .logo-accent {
   color: #2196f3;
 }
-
+.navigation-menu-link.is-curent {
+  color: #2196f3;
+}
 .navigation-menu-link {
   font-family: var(--main-font);
   font-weight: 500;
